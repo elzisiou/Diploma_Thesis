@@ -1,5 +1,4 @@
-%% ÓõíôÜêôçò:
-%% Çìåñïìçíßá: 19/7/2012
+
 
 :- use_module(library(pce)).
 :- dynamic ypsos2/1, examined/1.
@@ -21,9 +20,8 @@
 
 
 
-%%%%%%%%%%%%%%%%%%%%%5
- % Autor:
-% Datum: 3/7/2012
+%%%%%%%%%%%%%%%%%%%%%
+
 
 
 :- dynamic bel/1, fact/1,  int/1, des/1,done/1.
@@ -290,9 +288,9 @@
         write('on(X,Y).                            -- if Agent desires to move a block into another object(block or table).'), nl,
         write('tower([Block1,Block2|Block3]).      -- if Agent desires to establish Block1 on Block2 on Block3.'), nl,
         write('tower([Block1,Block2]).             -- if Agent desires to establish Block1 on Block2 .'), nl, nl,
-        write('bel(X).                       -- to see agent´s beliefs.'),nl,
-        write('des(X).                       -- to see agent´s desires.'), nl,
-        write('int(X).                       -- to see agent´s intentions.'), nl,
+        write('bel(X).                       -- to see agentï¿½s beliefs.'),nl,
+        write('des(X).                       -- to see agentï¿½s desires.'), nl,
+        write('int(X).                       -- to see agentï¿½s intentions.'), nl,
         write('done(X).                      -- to see which intentions have been done.'), nl,
         nl.
 
